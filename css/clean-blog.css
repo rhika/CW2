@@ -405,3 +405,15 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #0085A1;
 }
+
+.left{
+  width: 240px;
+  position: absolute;
+  *position: relative;
+  float: left;
+  margin: 0;
+}
+.right{
+  margin-left: 240px;
+  position: relative;
+}
